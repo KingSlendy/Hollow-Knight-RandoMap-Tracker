@@ -1,0 +1,1 @@
+scale_anim.target = 0;

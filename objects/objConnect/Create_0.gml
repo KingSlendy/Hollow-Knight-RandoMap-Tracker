@@ -1,0 +1,10 @@
+depth = -1;
+name = "";
+entrance = "";
+scene = noone;
+connected = noone;
+global.last = noone;
+target_x = 0;
+target_y = 0;
+scale_anim = new TargetAnim(1, 1, 0);
+faded = false;
