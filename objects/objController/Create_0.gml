@@ -2,11 +2,20 @@
 depth = 1;
 x = room_width / 2;
 y = room_height / 2;
+
+if (global.last_cam != noone) {
+	var cam = cam_get_vars();
+	camera_set_view_pos(cam.cam, global.last_cam.cam_x, global.last_cam.cam_y);
+	camera_set_view_size(cam.cam, global.last_cam.cam_w, global.last_cam.cam_h);
+	global.last_cam = noone;
+}
+
 zoom_level = 45;
 mouse_hold = false;
 mouse_xprevious = 0;
 mouse_yprevious = 0;
-box_controls_anim = new TargetAnim(-360, 530, 0);
+box_controls_size = 300;
+box_controls_anim = new TargetAnim(-(box_controls_size + 30), box_controls_size + 30, 0);
 place_pin = false;
 
 function zoom_camera(zoom) {

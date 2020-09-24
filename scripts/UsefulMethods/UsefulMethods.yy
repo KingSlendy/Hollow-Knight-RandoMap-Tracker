@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Methods",
+    "path": "folders/Scripts/Methods.yy",
   },
   "resourceVersion": "1.0",
-  "name": "DrawMethods",
+  "name": "UsefulMethods",
   "tags": [],
   "resourceType": "GMScript",
 }

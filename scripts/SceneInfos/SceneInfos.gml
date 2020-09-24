@@ -156,11 +156,36 @@ a.add_entrance("top1", 83, 2);
 a.add_entrance("right1", 154, 51);
 a.add_entrance("left1", 2, 64);
 
-a = new Scene("Crossroads_02", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_03", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_04", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_05", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_06", roads, c_roads, global.default_entrances);
+a = new Scene("Crossroads_02", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 38);
+a.add_entrance("door1", 69, 38);
+a.add_entrance("right1", 136, 38);
+
+a = new Scene("Crossroads_03", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 47, 35);
+a.add_entrance("left2", 0, 122);
+a.add_entrance("right2", 47, 81);
+a.add_entrance("left1", 0, 85);
+a.add_entrance("bot1", 0, 85);
+a.add_entrance("top1", 22, 0);
+
+a = new Scene("Crossroads_04", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 241, 11);
+a.add_entrance("left1", 0, 15);
+a.add_entrance("door_Mender_House", 81, 57);
+a.add_entrance("door1", 133, 57);
+a.add_entrance("door_charmshop", 218, 44);
+a.add_entrance("top1", 99, 0);
+
+a = new Scene("Crossroads_05", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 31);
+a.add_entrance("right1", 125, 31);
+
+a = new Scene("Crossroads_06", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 79);
+a.add_entrance("door1", 42, 44);
+a.add_entrance("right1", 85, 79);
+
 a = new Scene("Crossroads_07", roads, c_roads, global.default_entrances);
 a = new Scene("Crossroads_08", roads, c_roads, global.default_entrances);
 

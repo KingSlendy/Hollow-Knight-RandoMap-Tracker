@@ -7,5 +7,5 @@ if (connected != noone && global.last == id) {
 }
 
 if (scale_anim.target == 1) {
-	draw_roundbox(x, y - 32, entrance, false);
+	draw_gui_button(x, floor(y - sprite_height / 2), fa_center, fa_bottom, entrance, 10000, false);
 }

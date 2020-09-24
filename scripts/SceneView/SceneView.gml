@@ -1,4 +1,5 @@
 global.cam_focus = noone;
+global.last_cam = noone;
 
 function cam_get_vars() {
 	var camera = view_camera[0];

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "System",
-    "path": "folders/Scripts/System.yy",
+    "name": "Methods",
+    "path": "folders/Scripts/Methods.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ParseTracker",
+  "name": "GUIMethods",
   "tags": [],
   "resourceType": "GMScript",
 }

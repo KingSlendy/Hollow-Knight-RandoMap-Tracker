@@ -50,7 +50,8 @@ if (keyboard_check_pressed(vk_enter)) {
 }
 
 //Restarting application
-if (keyboard_check_pressed(vk_f2)) {
+if (keyboard_check_pressed(vk_f5)) {
+	global.last_cam = cam_get_vars();
 	game_restart();
 }
 

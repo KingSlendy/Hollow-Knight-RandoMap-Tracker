@@ -1,0 +1,1570 @@
+TRANSITIONS
+
+Room temple:
+Room_temple[left1] --> Deepnest_10[right1]
+
+Room shop:
+Room_shop[left1] --> Deepnest_East_03[right2]
+
+Room Town Stag Station:
+Room_Town_Stag_Station[left1] --> Abyss_08[right1]
+
+Room mapper:
+Room_mapper[left1] --> Crossroads_42[right1]
+
+Room Bretta:
+Room_Bretta[right1] --> Room_GG_Shortcut[left1]
+
+Room Ouiji:
+Room_Ouiji[left1] --> Crossroads_09[right1]
+
+Grimm Divine:
+Grimm_Divine[left1] --> Fungus3_13[right1]
+
+Grimm Main Tent:
+Grimm_Main_Tent[left1] --> Waterways_05[right1]
+
+Crossroads 07:
+Crossroads_07[left1] --> Crossroads_35[right1]
+Crossroads_07[left3] --> Fungus3_48[right2]
+Crossroads_07[left2] --> Waterways_04b[right1]
+Crossroads_07[right2] --> Crossroads_09[left1]
+Crossroads_07[right1] --> Waterways_04[left2]
+Crossroads_07[bot1] --> Fungus3_archive_02[top1]
+
+Crossroads 08:
+Crossroads_08[left2] --> Fungus1_20_v02[right1]
+Crossroads_08[left1] --> Fungus3_01[right1]
+Crossroads_08[right2] --> Hive_03_c[left1]
+Crossroads_08[right1] --> White_Palace_02[left1]
+
+Crossroads 09:
+Crossroads_09[left1] --> Crossroads_07[right2]
+Crossroads_09[right1] --> Room_Ouiji[left1]
+
+Crossroads 10:
+Crossroads_10[right1] --> Crossroads_19[left2]
+Crossroads_10[left1] --> Fungus3_11[right1]
+
+Crossroads 11 alt:
+Crossroads_11_alt[right1] --> Waterways_13[left1]
+Crossroads_11_alt[left1] --> Room_Wyrm[right1]
+
+Crossroads 12:
+Crossroads_12[left1] --> Ruins1_31b[right1]
+Crossroads_12[right1] --> Fungus3_34[left1]
+
+Crossroads 13:
+Crossroads_13[left1] --> White_Palace_01[right1]
+Crossroads_13[right1] --> Fungus2_26[left1]
+
+Crossroads 14:
+Crossroads_14[right1] --> Fungus1_23[left1]
+Crossroads_14[left1] --> Abyss_06_Core[right2]
+Crossroads_14[left2] --> Deepnest_01b[right1]
+Crossroads_14[right2] --> Mines_31[left1]
+
+Crossroads 15:
+Crossroads_15[left1] --> Town[right1]
+Crossroads_15[right1] --> Abyss_16[left1]
+
+Crossroads 16:
+Crossroads_16[right1] --> White_Palace_19[left1]
+Crossroads_16[bot1] --> Fungus3_21[top1]
+Crossroads_16[left1] --> Ruins2_11[right1]
+
+Crossroads 18:
+Crossroads_18[bot1] --> Waterways_02[top2]
+Crossroads_18[right1] --> Fungus2_04[left1]
+Crossroads_18[right2] --> Room_Charm_Shop[left1]
+
+Crossroads 19:
+Crossroads_19[left1] --> Abyss_02[right1]
+Crossroads_19[left2] --> Crossroads_10[right1]
+Crossroads_19[right1] --> Waterways_08[left1]
+Crossroads_19[top1] --> Ruins2_Watcher_Room[bot1]
+
+Crossroads 21:
+Crossroads_21[left1] --> Ruins1_30[right1]
+Crossroads_21[right1] --> Mines_04[left3]
+Crossroads_21[top1] --> Fungus1_31[bot1]
+
+Crossroads 22:
+Crossroads_22[bot1] --> Ruins2_05[top1]
+
+Crossroads 25:
+Crossroads_25[left1] --> Fungus3_02[right2]
+Crossroads_25[right1] --> GG_Pipeway[left1]
+
+Crossroads 27:
+Crossroads_27[left1] --> Ruins1_24[right2]
+Crossroads_27[bot1] --> Fungus3_40[top1]
+Crossroads_27[left2] --> GG_Waterways[door1]
+Crossroads_27[right1] --> Deepnest_East_17[left1]
+
+Crossroads 30:
+Crossroads_30[left1] --> Mines_10[right1]
+
+Crossroads 31:
+Crossroads_31[right1] --> Ruins1_31[left2]
+
+Crossroads 33:
+Crossroads_33[left2] --> Fungus1_25[right1]
+Crossroads_33[right1] --> Fungus3_25b[left1]
+Crossroads_33[right2] --> Waterways_07[left1]
+Crossroads_33[top1] --> Fungus2_05[bot1]
+Crossroads_33[left1] --> Waterways_07[right1]
+
+Crossroads 35:
+Crossroads_35[bot1] --> Deepnest_35[top1]
+Crossroads_35[right1] --> Crossroads_07[left1]
+
+Crossroads 36:
+Crossroads_36[right1] --> Fungus1_09[left1]
+Crossroads_36[right2] --> Fungus3_11[left1]
+
+Crossroads 37:
+Crossroads_37[right1] --> Ruins1_27[left1]
+
+Crossroads 38:
+Crossroads_38[right1] --> Ruins2_04[left2]
+
+Crossroads 39:
+Crossroads_39[left1] --> Fungus2_05[right1]
+Crossroads_39[right1] --> Crossroads_52[left1]
+
+Crossroads 40:
+Crossroads_40[left1] --> Fungus2_03[right1]
+Crossroads_40[right1] --> Room_nailmaster_03[left1]
+
+Crossroads 42:
+Crossroads_42[left1] --> Cliffs_01[right1]
+Crossroads_42[right1] --> Room_mapper[left1]
+
+Crossroads 43:
+Crossroads_43[right1] --> White_Palace_03_hub[left2]
+Crossroads_43[left1] --> Ruins1_31b[right2]
+
+Crossroads 45:
+Crossroads_45[right1] --> Ruins_Elevator[left2]
+Crossroads_45[left1] --> Fungus3_22[right1]
+
+Crossroads 46:
+Crossroads_46[left1] --> Waterways_04b[right2]
+
+Crossroads 46b:
+Crossroads_46b[right1] --> Deepnest_East_10[left1]
+
+Crossroads ShamanTemple:
+Crossroads_ShamanTemple[left1] --> Deepnest_39[right1]
+
+Crossroads 47:
+Crossroads_47[right1] --> Deepnest_East_16[left1]
+
+Crossroads 48:
+Crossroads_48[left1] --> Fungus1_10[right1]
+
+Crossroads 49:
+Crossroads_49[right1] --> Fungus1_08[left1]
+Crossroads_49[left1] --> Ruins1_24[right1]
+
+Crossroads 49b:
+Crossroads_49b[right1] --> Abyss_01[left3]
+
+Crossroads 50:
+Crossroads_50[right1] --> Fungus3_26[left2]
+Crossroads_50[left1] --> RestingGrounds_05[right2]
+
+Crossroads 52:
+Crossroads_52[left1] --> Crossroads_39[right1]
+
+Room ruinhouse:
+Room_ruinhouse[left1] --> Crossroads_04[door_charmshop]
+
+Room Charm Shop:
+Room_Charm_Shop[left1] --> Crossroads_18[right2]
+
+Room Mender House:
+Room_Mender_House[left1] --> Ruins2_10b[right1]
+
+Fungus1 01:
+Fungus1_01[left1] --> Deepnest_East_14b[right1]
+Fungus1_01[right1] --> Fungus3_05[left1]
+
+Fungus1 01b:
+Fungus1_01b[right1] --> Ruins1_31[left3]
+Fungus1_01b[left1] --> Ruins1_18[right2]
+
+Fungus1 02:
+Fungus1_02[left1] --> Ruins2_04[door_Ruin_House_02]
+Fungus1_02[right1] --> Abyss_22[left1]
+Fungus1_02[right2] --> Ruins1_05c[left2]
+
+Fungus1 03:
+Fungus1_03[bot1] --> Fungus1_30[top3]
+Fungus1_03[left1] --> Ruins1_04[right1]
+Fungus1_03[right1] --> White_Palace_16[left2]
+
+Fungus1 04:
+Fungus1_04[right1] --> Ruins2_06[left1]
+Fungus1_04[left1] --> Town[door_sly]
+
+Fungus1 05:
+Fungus1_05[bot1] --> Ruins2_03b[top1]
+Fungus1_05[top1] --> Abyss_19[bot2]
+Fungus1_05[right1] --> GG_Lurker[left1]
+
+Fungus1 06:
+Fungus1_06[left1] --> Town[door_jiji]
+Fungus1_06[bot1] --> Mines_37[top1]
+
+Fungus1 07:
+Fungus1_07[left1] --> Ruins1_04[door1]
+Fungus1_07[right1] --> Waterways_04[left1]
+Fungus1_07[top1] --> Fungus1_21[bot1]
+
+Fungus1 08:
+Fungus1_08[left1] --> Crossroads_49[right1]
+
+Fungus1 09:
+Fungus1_09[right1] --> Fungus2_06[left2]
+Fungus1_09[left1] --> Crossroads_36[right1]
+
+Fungus1 10:
+Fungus1_10[left1] --> Mines_29[right1]
+Fungus1_10[top1] --> Ruins1_05b[bot1]
+Fungus1_10[right1] --> Crossroads_48[left1]
+
+Fungus1 11:
+Fungus1_11[bot1] --> Ruins1_01[top1]
+Fungus1_11[top1] --> Abyss_02[bot1]
+Fungus1_11[right2] --> Fungus2_28[left1]
+Fungus1_11[right1] --> White_Palace_05[left1]
+Fungus1_11[left1] --> Mines_30[right1]
+
+Fungus1 12:
+Fungus1_12[left1] --> Mines_05[right1]
+Fungus1_12[right1] --> Deepnest_35[left1]
+
+Fungus1 13:
+Fungus1_13[left1] --> Fungus1_21[right1]
+Fungus1_13[right1] --> Abyss_19[left1]
+
+Fungus1 14:
+Fungus1_14[left1] --> Abyss_03_c[right1]
+
+Fungus1 15:
+Fungus1_15[right1] --> Fungus3_02[left2]
+Fungus1_15[door1] --> Abyss_Lighthouse_room[left1]
+
+Fungus1 16 alt:
+Fungus1_16_alt[right1] --> Fungus1_28[left1]
+
+Fungus1 17:
+Fungus1_17[right1] --> Deepnest_26[left1]
+Fungus1_17[left1] --> Fungus3_21[right1]
+
+Fungus1 19:
+Fungus1_19[left1] --> Ruins1_05[right1]
+Fungus1_19[right1] --> Fungus2_13[left3]
+Fungus1_19[bot1] --> White_Palace_07[top1]
+
+Fungus1 20 v02:
+Fungus1_20_v02[bot1] --> Fungus3_26[top1]
+Fungus1_20_v02[right1] --> Crossroads_08[left2]
+Fungus1_20_v02[bot2] --> Crossroads_04[top1]
+
+Fungus1 21:
+Fungus1_21[top1] --> Deepnest_East_01[bot1]
+Fungus1_21[left1] --> Fungus1_23[right1]
+Fungus1_21[right1] --> Fungus1_13[left1]
+Fungus1_21[bot1] --> Fungus1_07[top1]
+
+Fungus1 22:
+Fungus1_22[left1] --> Deepnest_26[right1]
+Fungus1_22[bot1] --> Fungus2_11[top1]
+Fungus1_22[top1] --> Deepnest_East_07[bot1]
+
+Fungus1 23:
+Fungus1_23[right1] --> Fungus1_21[left1]
+Fungus1_23[left1] --> Crossroads_14[right1]
+
+Fungus1 24:
+Fungus1_24[left1] --> Fungus3_01[right2]
+
+Fungus1 25:
+Fungus1_25[left1] --> Ruins1_05[right2]
+Fungus1_25[right1] --> Crossroads_33[left2]
+
+Fungus1 26:
+Fungus1_26[door_SlugShrine] --> Fungus2_13[left2]
+Fungus1_26[left1] --> Hive_01[right2]
+Fungus1_26[right1] --> Fungus2_32[left1]
+
+Fungus1 28:
+Fungus1_28[left2] --> Ruins2_07[right1]
+Fungus1_28[left1] --> Fungus1_16_alt[right1]
+
+Fungus1 29:
+Fungus1_29[right1] --> Deepnest_East_04[left1]
+Fungus1_29[left1] --> Deepnest_40[right1]
+
+Fungus1 30:
+Fungus1_30[right1] --> Deepnest_East_07[left1]
+Fungus1_30[left1] --> Cliffs_01[right2]
+Fungus1_30[top3] --> Fungus1_03[bot1]
+Fungus1_30[top1] --> Fungus1_32[bot1]
+
+Fungus1 31:
+Fungus1_31[right1] --> Fungus2_11[left1]
+Fungus1_31[top1] --> Deepnest_38[bot1]
+Fungus1_31[bot1] --> Crossroads_21[top1]
+
+Fungus1 32:
+Fungus1_32[bot1] --> Fungus1_30[top1]
+Fungus1_32[top1] --> RestingGrounds_02[bot1]
+Fungus1_32[left1] --> Crossroads_04[right1]
+
+Fungus1 34:
+Fungus1_34[left1] --> Town[door_station]
+Fungus1_34[door1] --> Fungus3_archive[left1]
+
+Fungus1 35:
+Fungus1_35[right1] --> Deepnest_03[left1]
+Fungus1_35[left1] --> Deepnest_East_02[right1]
+
+Fungus1 36:
+Fungus1_36[left1] --> Deepnest_01b[right2]
+
+Fungus1 37:
+Fungus1_37[left1] --> Fungus2_17[right1]
+
+Fungus1 Slug:
+Fungus1_Slug[right1] --> Waterways_08[left2]
+
+Room Slug Shrine:
+Room_Slug_Shrine[left1] --> Deepnest_East_14[door1]
+
+Room nailmaster 02:
+Room_nailmaster_02[left1] --> Ruins2_04[right1]
+
+Fungus3 01:
+Fungus3_01[right1] --> Crossroads_08[left1]
+Fungus3_01[left1] --> Mines_36[right1]
+Fungus3_01[right2] --> Fungus1_24[left1]
+Fungus3_01[top1] --> RestingGrounds_05[bot1]
+
+Fungus3 02:
+Fungus3_02[right1] --> Mines_25[left1]
+Fungus3_02[left2] --> Fungus1_15[right1]
+Fungus3_02[right2] --> Crossroads_25[left1]
+Fungus3_02[left3] --> Abyss_05[right1]
+Fungus3_02[left1] --> Hive_03_c[right2]
+
+Fungus3 03:
+Fungus3_03[left1] --> Fungus2_04[right2]
+Fungus3_03[right1] --> Ruins2_10[left1]
+
+Fungus3 24:
+Fungus3_24[right1] --> Deepnest_26[left2]
+Fungus3_24[top1] --> Ruins1_02[bot1]
+Fungus3_24[left1] --> Deepnest_26b[right2]
+
+Fungus3 25:
+Fungus3_25[right1] --> RestingGrounds_10[left1]
+Fungus3_25[left1] --> Fungus3_04[right1]
+
+Fungus3 25b:
+Fungus3_25b[left1] --> Crossroads_33[right1]
+Fungus3_25b[right1] --> Ruins2_01[left2]
+
+Fungus3 26:
+Fungus3_26[right1] --> Mines_29[left1]
+Fungus3_26[left1] --> Hive_03[right1]
+Fungus3_26[left2] --> Crossroads_50[right1]
+Fungus3_26[left3] --> Fungus2_23[right2]
+Fungus3_26[top1] --> Fungus1_20_v02[bot1]
+
+Fungus3 27:
+Fungus3_27[left1] --> RestingGrounds_05[right1]
+Fungus3_27[right1] --> Deepnest_East_Hornet[left2]
+
+Fungus3 28:
+Fungus3_28[right1] --> Ruins2_04[left1]
+
+Fungus3 30:
+Fungus3_30[bot1] --> Waterways_06[top1]
+
+Fungus3 35:
+Fungus3_35[right1] --> Fungus2_33[left1]
+
+Fungus3 44:
+Fungus3_44[door1] --> Ruins1_01[left1]
+Fungus3_44[right1] --> Crossroads_06[left1]
+Fungus3_44[bot1] --> Abyss_15[top1]
+
+Fungus3 47:
+Fungus3_47[left1] --> White_Palace_04[right2]
+Fungus3_47[door1] --> Crossroads_01[left1]
+Fungus3_47[right1] --> Mines_06[left1]
+
+Room Fungus Shaman:
+Room_Fungus_Shaman[left1] --> Mines_23[right2]
+
+Fungus3 archive:
+Fungus3_archive[left1] --> Fungus1_34[door1]
+Fungus3_archive[bot1] --> Mines_16[top1]
+
+Fungus3 archive 02:
+Fungus3_archive_02[top1] --> Crossroads_07[bot1]
+
+Fungus2 01:
+Fungus2_01[right1] --> Fungus2_21[left1]
+Fungus2_01[left1] --> Deepnest_East_11[right1]
+Fungus2_01[left2] --> Mines_33[right1]
+Fungus2_01[left3] --> Fungus2_29[right1]
+
+Fungus2 02:
+Fungus2_02[right1] --> Ruins2_06[left2]
+
+Fungus2 34:
+Fungus2_34[right1] --> Fungus2_15[left1]
+
+Fungus2 03:
+Fungus2_03[left1] --> White_Palace_13[right1]
+Fungus2_03[right1] --> Crossroads_40[left1]
+Fungus2_03[bot1] --> Fungus2_30[top1]
+
+Fungus2 04-upper:
+Fungus2_04[top1] --> Mines_11[bot1]
+Fungus2_04[right1] --> Deepnest_36[left1]
+
+Fungus2 04:
+Fungus2_04[left1] --> Crossroads_18[right1]
+Fungus2_04[right2] --> Fungus3_03[left1]
+
+Fungus2 05:
+Fungus2_05[bot1] --> Crossroads_33[top1]
+Fungus2_05[right1] --> Crossroads_39[left1]
+
+Fungus2 06:
+Fungus2_06[right1] --> Ruins1_25[left1]
+Fungus2_06[left2] --> Fungus1_09[right1]
+Fungus2_06[top1] --> Room_Colosseum_Spectate[bot1]
+Fungus2_06[right2] --> Fungus2_17[left1]
+Fungus2_06[left1] --> White_Palace_09[right1]
+
+Fungus2 07:
+Fungus2_07[left1] --> Ruins2_04[door_Ruin_House_03]
+Fungus2_07[right1] --> Hive_04[left1]
+
+Fungus2 08:
+Fungus2_08[left2] --> Deepnest_03[right1]
+Fungus2_08[left1] --> Mines_03[right1]
+Fungus2_08[right1] --> Deepnest_14[left1]
+
+Fungus2 09:
+Fungus2_09[right1] --> Deepnest_East_14[left1]
+Fungus2_09[left1] --> Abyss_12[right1]
+
+Fungus2 10:
+Fungus2_10[bot1] --> Ruins1_03[top1]
+Fungus2_10[right2] --> Ruins1_29[left1]
+Fungus2_10[right1] --> Ruins1_24[left1]
+
+Fungus2 11:
+Fungus2_11[left2] --> Crossroads_05[right1]
+Fungus2_11[right1] --> RestingGrounds_09[left1]
+Fungus2_11[left1] --> Fungus1_31[right1]
+Fungus2_11[top1] --> Fungus1_22[bot1]
+
+Fungus2 12:
+Fungus2_12[left1] --> Waterways_04[right1]
+Fungus2_12[bot1] --> Waterways_07[top1]
+
+Fungus2 13:
+Fungus2_13[left3] --> Fungus1_19[right1]
+Fungus2_13[left2] --> Fungus1_26[door_SlugShrine]
+Fungus2_13[top1] --> Deepnest_33[bot1]
+
+Fungus2 14:
+Fungus2_14[right1] --> Fungus3_23[left1]
+Fungus2_14[bot3] --> RestingGrounds_06[top1]
+Fungus2_14[top1] --> Ruins1_05[bot3]
+
+Fungus2 15:
+Fungus2_15[right1] --> White_Palace_16[left1]
+Fungus2_15[left1] --> Fungus2_34[right1]
+Fungus2_15[top3] --> Ruins1_04[bot1]
+
+Fungus2 17:
+Fungus2_17[left1] --> Fungus2_06[right2]
+Fungus2_17[bot1] --> Deepnest_37[top1]
+Fungus2_17[right1] --> Fungus1_37[left1]
+
+Fungus2 18:
+Fungus2_18[right1] --> Crossroads_04[left1]
+Fungus2_18[bot1] --> Deepnest_East_06[top1]
+Fungus2_18[top1] --> Ruins1_05c[bot1]
+
+Fungus2 19:
+Fungus2_19[left1] --> Fungus2_20[right1]
+Fungus2_19[top1] --> Mines_20[bot1]
+
+Fungus2 20:
+Fungus2_20[left1] --> Deepnest_02[right1]
+Fungus2_20[right1] --> Fungus2_19[left1]
+
+Fungus2 21:
+Fungus2_21[right1] --> Abyss_04[left1]
+Fungus2_21[left1] --> Fungus2_01[right1]
+
+Fungus2 23:
+Fungus2_23[right2] --> Fungus3_26[left3]
+Fungus2_23[right1] --> Deepnest_01[left1]
+
+Fungus2 26:
+Fungus2_26[left1] --> Crossroads_13[right1]
+
+Fungus2 28:
+Fungus2_28[left1] --> Fungus1_11[right2]
+Fungus2_28[left2] --> Deepnest_East_01[right1]
+
+Fungus2 29:
+Fungus2_29[right1] --> Fungus2_01[left3]
+Fungus2_29[bot1] --> Fungus3_10[top1]
+
+Fungus2 30:
+Fungus2_30[bot1] --> Fungus2_25[top2]
+Fungus2_30[top1] --> Fungus2_03[bot1]
+
+Fungus2 31:
+Fungus2_31[left1] --> Deepnest_10[door2]
+
+Fungus2 32:
+Fungus2_32[left1] --> Fungus1_26[right1]
+
+Fungus2 33:
+Fungus2_33[right1] --> Ruins_House_03[left2]
+Fungus2_33[left1] --> Fungus3_35[right1]
+
+Deepnest 01:
+Deepnest_01[bot2] --> Mines_13[top1]
+Deepnest_01[left1] --> Fungus2_23[right1]
+Deepnest_01[bot1] --> Crossroads_03[top1]
+Deepnest_01[right1] --> Room_spider_small[left1]
+
+Deepnest 01b:
+Deepnest_01b[top1] --> RestingGrounds_12[bot1]
+Deepnest_01b[right1] --> Crossroads_14[left2]
+Deepnest_01b[bot1] --> Deepnest_East_03[top1]
+Deepnest_01b[right2] --> Fungus1_36[left1]
+
+Deepnest 02:
+Deepnest_02[left2] --> RestingGrounds_04[right1]
+Deepnest_02[left1] --> Abyss_09[right2]
+Deepnest_02[right1] --> Fungus2_20[left1]
+
+Deepnest 03:
+Deepnest_03[top1] --> Abyss_04[bot1]
+Deepnest_03[left1] --> Fungus1_35[right1]
+Deepnest_03[right1] --> Fungus2_08[left2]
+Deepnest_03[left2] --> Mines_06[right1]
+
+Deepnest 09:
+Deepnest_09[left1] --> RestingGrounds_02[right1]
+
+Deepnest 10:
+Deepnest_10[door1] --> Ruins1_05b[left1]
+Deepnest_10[right2] --> Cliffs_06[left1]
+Deepnest_10[right3] --> Mines_24[left1]
+Deepnest_10[door2] --> Fungus2_31[left1]
+Deepnest_10[right1] --> Room_temple[left1]
+
+Room spider small:
+Room_spider_small[left1] --> Deepnest_01[right1]
+
+Deepnest Spider Town:
+Deepnest_Spider_Town[left1] --> Ruins_Bathhouse[door1]
+
+Deepnest 14:
+Deepnest_14[left1] --> Fungus2_08[right1]
+Deepnest_14[bot2] --> Deepnest_East_14[top2]
+Deepnest_14[right1] --> Mines_20[left1]
+Deepnest_14[bot1] --> Deepnest_East_02[top1]
+
+Deepnest 16:
+Deepnest_16[bot1] --> Fungus2_25[top1]
+Deepnest_16[left1] --> Fungus3_08[right1]
+
+Deepnest 17:
+Deepnest_17[top1] --> Ruins2_11_b[bot1]
+Deepnest_17[left1] --> Fungus3_49[right1]
+Deepnest_17[right1] --> Deepnest_39[left1]
+Deepnest_17[bot1] --> Deepnest_39[top1]
+
+Fungus2 25:
+Fungus2_25[right1] --> Mines_02[left1]
+Fungus2_25[top1] --> Deepnest_16[bot1]
+
+Deepnest 26:
+Deepnest_26[bot1] --> Deepnest_33[top2]
+Deepnest_26[right1] --> Fungus1_22[left1]
+Deepnest_26[left2] --> Fungus3_24[right1]
+Deepnest_26[left1] --> Fungus1_17[right1]
+
+Deepnest 26b:
+Deepnest_26b[right1] --> Fungus3_04[left2]
+Deepnest_26b[right2] --> Fungus3_24[left1]
+
+Deepnest 30:
+Deepnest_30[left1] --> White_Palace_05[right1]
+Deepnest_30[right1] --> Deepnest_37[left1]
+Deepnest_30[top1] --> Ruins1_23[bot1]
+
+Deepnest 31:
+Deepnest_31[right2] --> RestingGrounds_05[left3]
+Deepnest_31[right1] --> Ruins2_10b[left1]
+
+Deepnest 32:
+Deepnest_32[left1] --> Mines_04[right1]
+
+Deepnest 33:
+Deepnest_33[top1] --> Mines_37[bot1]
+Deepnest_33[top2] --> Deepnest_26[bot1]
+Deepnest_33[bot1] --> Fungus2_13[top1]
+
+Deepnest 34:
+Deepnest_34[right1] --> Ruins2_05[left1]
+Deepnest_34[left1] --> Ruins1_03[right1]
+Deepnest_34[top1] --> Ruins2_03[bot2]
+
+Deepnest 35:
+Deepnest_35[left1] --> Fungus1_12[right1]
+Deepnest_35[bot1] --> Abyss_04[top1]
+Deepnest_35[top1] --> Crossroads_35[bot1]
+
+Deepnest 36:
+Deepnest_36[left1] --> Fungus2_04[right1]
+
+Deepnest 37:
+Deepnest_37[left1] --> Deepnest_30[right1]
+Deepnest_37[top1] --> Fungus2_17[bot1]
+Deepnest_37[right1] --> Room_nailmaster[left1]
+Deepnest_37[bot1] --> Ruins2_06[top1]
+
+Deepnest 38:
+Deepnest_38[bot1] --> Fungus1_31[top1]
+
+Deepnest 39:
+Deepnest_39[door1] --> Mines_30[left1]
+Deepnest_39[left1] --> Deepnest_17[right1]
+Deepnest_39[top1] --> Deepnest_17[bot1]
+Deepnest_39[right1] --> Crossroads_ShamanTemple[left1]
+
+Deepnest 40:
+Deepnest_40[right1] --> Fungus1_29[left1]
+
+Deepnest 41:
+Deepnest_41[left1] --> Abyss_16[right1]
+Deepnest_41[right1] --> Ruins2_08[left1]
+Deepnest_41[left2] --> Fungus3_39[right1]
+
+Deepnest 42:
+Deepnest_42[left1] --> Mines_23[right1]
+Deepnest_42[top1] --> Mines_32[bot1]
+Deepnest_42[bot1] --> Hive_03[top1]
+
+Deepnest 43:
+Deepnest_43[left1] --> Town[door_mapper]
+Deepnest_43[right1] --> Ruins2_01_b[left1]
+Deepnest_43[bot1] --> Waterways_08[top1]
+
+Deepnest 44:
+Deepnest_44[top1] --> Fungus3_10[bot1]
+
+Deepnest 45 v02:
+Deepnest_45_v02[left1] --> Abyss_01[right1]
+
+Room Mask Maker:
+Room_Mask_Maker[right1] --> Fungus3_11[left2]
+
+Deepnest East 01:
+Deepnest_East_01[top1] --> Fungus3_48[bot1]
+Deepnest_East_01[bot1] --> Fungus1_21[top1]
+Deepnest_East_01[right1] --> Fungus2_28[left2]
+
+Deepnest East 02:
+Deepnest_East_02[right1] --> Fungus1_35[left1]
+Deepnest_East_02[bot1] --> Abyss_20[top2]
+Deepnest_East_02[bot2] --> White_Palace_06[top1]
+Deepnest_East_02[top1] --> Deepnest_14[bot1]
+
+Deepnest East 03:
+Deepnest_East_03[left1] --> Ruins2_11_b[right1]
+Deepnest_East_03[right2] --> Room_shop[left1]
+Deepnest_East_03[top1] --> Deepnest_01b[bot1]
+Deepnest_East_03[right1] --> Deepnest_East_12[left1]
+Deepnest_East_03[left2] --> White_Palace_11[door2]
+
+Deepnest East 04:
+Deepnest_East_04[left2] --> Ruins2_04[door_Ruin_Elevator]
+Deepnest_East_04[right2] --> Cliffs_04[left1]
+Deepnest_East_04[left1] --> Fungus1_29[right1]
+Deepnest_East_04[right1] --> Abyss_01[left1]
+
+Deepnest East 06:
+Deepnest_East_06[top1] --> Fungus2_18[bot1]
+Deepnest_East_06[right1] --> Waterways_13[left2]
+Deepnest_East_06[bot1] --> Ruins1_05c[top1]
+Deepnest_East_06[left1] --> Abyss_09[right3]
+Deepnest_East_06[door1] --> Hive_01[left1]
+
+Deepnest East 07:
+Deepnest_East_07[bot2] --> Town[top1]
+Deepnest_East_07[left2] --> Cliffs_02[door1]
+Deepnest_East_07[left1] --> Fungus1_30[right1]
+Deepnest_East_07[right1] --> Fungus3_04[left1]
+Deepnest_East_07[bot1] --> Fungus1_22[top1]
+
+Deepnest East 08:
+Deepnest_East_08[top1] --> White_Palace_06[bot1]
+Deepnest_East_08[right1] --> Fungus3_13[left2]
+
+Deepnest East 09:
+Deepnest_East_09[right1] --> Mines_04[left2]
+Deepnest_East_09[bot1] --> Ruins1_05b[top1]
+Deepnest_East_09[left1] --> RestingGrounds_07[right1]
+
+Deepnest East 10:
+Deepnest_East_10[left1] --> Crossroads_46b[right1]
+
+Deepnest East 11:
+Deepnest_East_11[right1] --> Fungus2_01[left1]
+Deepnest_East_11[bot1] --> RestingGrounds_10[top1]
+Deepnest_East_11[left1] --> Fungus3_48[right1]
+Deepnest_East_11[top1] --> Mines_34[bot1]
+
+Deepnest East 12:
+Deepnest_East_12[right1] --> RestingGrounds_02[left1]
+Deepnest_East_12[left1] --> Deepnest_East_03[right1]
+
+Deepnest East 13:
+Deepnest_East_13[bot1] --> Abyss_03[top1]
+
+Deepnest East 14:
+Deepnest_East_14[top2] --> Deepnest_14[bot2]
+Deepnest_East_14[left1] --> Fungus2_09[right1]
+Deepnest_East_14[door1] --> Room_Slug_Shrine[left1]
+
+Deepnest East 14b:
+Deepnest_East_14b[top1] --> Town[bot1]
+Deepnest_East_14b[right1] --> Fungus1_01[left1]
+
+Deepnest East 15:
+Deepnest_East_15[left1] --> Crossroads_03[right2]
+
+Deepnest East 16:
+Deepnest_East_16[bot1] --> Fungus3_34[top1]
+Deepnest_East_16[left1] --> Crossroads_47[right1]
+
+Deepnest East 17:
+Deepnest_East_17[left1] --> Crossroads_27[right1]
+
+Deepnest East 18:
+Deepnest_East_18[right2] --> Ruins1_30[left1]
+Deepnest_East_18[bot1] --> White_Palace_01[top1]
+Deepnest_East_18[top1] --> Abyss_19[bot1]
+
+Room nailmaster 03:
+Room_nailmaster_03[left1] --> Crossroads_40[right1]
+
+Deepnest East Hornet:
+Deepnest_East_Hornet[left1] --> Abyss_19[right1]
+Deepnest_East_Hornet[left2] --> Fungus3_27[right1]
+
+Room Wyrm:
+Room_Wyrm[right1] --> Crossroads_11_alt[left1]
+
+GG Lurker:
+GG_Lurker[left1] --> Fungus1_05[right1]
+
+Hive 01:
+Hive_01[right1] --> Mines_18[left1]
+Hive_01[right2] --> Fungus1_26[left1]
+Hive_01[left1] --> Deepnest_East_06[door1]
+
+Hive 02:
+Hive_02[left3] --> Waterways_07[door1]
+Hive_02[left1] --> Waterways_06[right1]
+Hive_02[left2] --> Ruins1_23[right2]
+
+Hive 03 c:
+Hive_03_c[left1] --> Crossroads_08[right2]
+Hive_03_c[right3] --> Cliffs_05[left1]
+Hive_03_c[right2] --> Fungus3_02[left1]
+Hive_03_c[top1] --> Ruins1_05[bot1]
+
+Hive 03:
+Hive_03[right1] --> Fungus3_26[left1]
+Hive_03[bot1] --> Abyss_17[top1]
+Hive_03[top1] --> Deepnest_42[bot1]
+
+Hive 04:
+Hive_04[left1] --> Fungus2_07[right1]
+Hive_04[left2] --> Waterways_07[right2]
+Hive_04[right1] --> Mines_20[left2]
+
+Hive 05:
+Hive_05[left1] --> Mines_20[right2]
+
+Room Colosseum 01:
+Room_Colosseum_01[bot1] --> Mines_02[top1]
+Room_Colosseum_01[left1] --> Mines_20[right1]
+
+Room Colosseum 02:
+Room_Colosseum_02[top1] --> Waterways_02[bot1]
+Room_Colosseum_02[top2] --> Cliffs_02[bot1]
+
+Room Colosseum Spectate:
+Room_Colosseum_Spectate[bot1] --> Fungus2_06[top1]
+Room_Colosseum_Spectate[right1] --> Cliffs_02[left2]
+
+Abyss 01:
+Abyss_01[right2] --> Mines_33[left1]
+Abyss_01[left2] --> Ruins2_10[right1]
+Abyss_01[left1] --> Deepnest_East_04[right1]
+Abyss_01[left3] --> Crossroads_49b[right1]
+Abyss_01[right1] --> Deepnest_45_v02[left1]
+
+Abyss 02:
+Abyss_02[bot1] --> Fungus1_11[top1]
+Abyss_02[right1] --> Crossroads_19[left1]
+
+Abyss 03:
+Abyss_03[bot1] --> Waterways_02[top1]
+Abyss_03[bot2] --> Tutorial_01[top2]
+Abyss_03[top1] --> Deepnest_East_13[bot1]
+
+Abyss 03 b:
+Abyss_03_b[left1] --> Waterways_12[right1]
+
+Abyss 03 c:
+Abyss_03_c[right1] --> Fungus1_14[left1]
+Abyss_03_c[top1] --> White_Palace_12[bot1]
+
+Abyss 04:
+Abyss_04[top1] --> Deepnest_35[bot1]
+Abyss_04[left1] --> Fungus2_21[right1]
+Abyss_04[bot1] --> Deepnest_03[top1]
+Abyss_04[right1] --> White_Palace_05[left2]
+
+Abyss 05:
+Abyss_05[right1] --> Fungus3_02[left3]
+Abyss_05[left1] --> Fungus3_50[right1]
+
+Abyss 06 Core:
+Abyss_06_Core[left1] --> Crossroads_06[right1]
+Abyss_06_Core[left3] --> Mines_19[right1]
+Abyss_06_Core[right2] --> Crossroads_14[left1]
+Abyss_06_Core[top1] --> Fungus3_13[bot1]
+Abyss_06_Core[bot1] --> Crossroads_01[top1]
+
+Abyss 08:
+Abyss_08[right1] --> Room_Town_Stag_Station[left1]
+
+Abyss 09:
+Abyss_09[right2] --> Deepnest_02[left1]
+Abyss_09[left1] --> Ruins1_27[right1]
+Abyss_09[right3] --> Deepnest_East_06[left1]
+Abyss_09[right1] --> Room_Queen[left1]
+
+Abyss 10:
+Abyss_10[left2] --> Fungus3_48[door1]
+Abyss_10[left1] --> Crossroads_03[right1]
+
+Abyss 12:
+Abyss_12[right1] --> Fungus2_09[left1]
+
+Abyss 15:
+Abyss_15[top1] --> Fungus3_44[bot1]
+
+Abyss 16:
+Abyss_16[left1] --> Crossroads_15[right1]
+Abyss_16[right1] --> Deepnest_41[left1]
+
+Abyss 17:
+Abyss_17[top1] --> Hive_03[bot1]
+
+Abyss 18:
+Abyss_18[right1] --> White_Palace_06[left1]
+Abyss_18[left1] --> RestingGrounds_12[door_Mansion]
+
+Abyss 19:
+Abyss_19[bot1] --> Deepnest_East_18[top1]
+Abyss_19[bot2] --> Fungus1_05[top1]
+Abyss_19[right1] --> Deepnest_East_Hornet[left1]
+Abyss_19[left1] --> Fungus1_13[right1]
+
+Abyss 20:
+Abyss_20[top2] --> Deepnest_East_02[bot1]
+Abyss_20[top1] --> Ruins2_03b[bot1]
+
+Abyss 21:
+Abyss_21[right1] --> Crossroads_03[left1]
+
+Abyss 22:
+Abyss_22[left1] --> Fungus1_02[right1]
+
+Abyss Lighthouse room:
+Abyss_Lighthouse_room[left1] --> Fungus1_15[door1]
+
+Waterways 01:
+Waterways_01[left1] --> Crossroads_02[right1]
+Waterways_01[bot1] --> Mines_25[top1]
+Waterways_01[right1] --> Fungus3_22[left1]
+Waterways_01[top1] --> Waterways_14[bot1]
+
+Waterways 02:
+Waterways_02[top3] --> White_Palace_03_hub[bot1]
+Waterways_02[bot2] --> Mines_11[top1]
+Waterways_02[top2] --> Crossroads_18[bot1]
+Waterways_02[top1] --> Abyss_03[bot1]
+Waterways_02[bot1] --> Room_Colosseum_02[top1]
+
+Waterways 03:
+Waterways_03[left1] --> White_Palace_12[right1]
+
+Waterways 04:
+Waterways_04[left1] --> Fungus1_07[right1]
+Waterways_04[right1] --> Fungus2_12[left1]
+Waterways_04[left2] --> Crossroads_07[right1]
+Waterways_04[bot1] --> Ruins1_02[top1]
+
+Waterways 04b:
+Waterways_04b[right1] --> Crossroads_07[left2]
+Waterways_04b[right2] --> Crossroads_46[left1]
+Waterways_04b[left1] --> Ruins1_18[right1]
+
+Waterways 05:
+Waterways_05[bot2] --> Fungus3_08[top1]
+Waterways_05[right1] --> Grimm_Main_Tent[left1]
+Waterways_05[bot1] --> Mines_03[top1]
+
+Waterways 06:
+Waterways_06[right1] --> Hive_02[left1]
+Waterways_06[top1] --> Fungus3_30[bot1]
+
+Waterways 07:
+Waterways_07[left1] --> Crossroads_33[right2]
+Waterways_07[door1] --> Hive_02[left3]
+Waterways_07[right2] --> Hive_04[left2]
+Waterways_07[right1] --> Crossroads_33[left1]
+Waterways_07[top1] --> Fungus2_12[bot1]
+
+Waterways 08:
+Waterways_08[left1] --> Crossroads_19[right1]
+Waterways_08[top1] --> Deepnest_43[bot1]
+Waterways_08[left2] --> Fungus1_Slug[right1]
+
+Waterways 09:
+Waterways_09[left1] --> Cliffs_01[right3]
+Waterways_09[right1] --> Mines_35[left1]
+
+Waterways 12:
+Waterways_12[right1] --> Abyss_03_b[left1]
+
+Waterways 13:
+Waterways_13[left2] --> Deepnest_East_06[right1]
+Waterways_13[left1] --> Crossroads_11_alt[right1]
+
+Waterways 14:
+Waterways_14[bot1] --> Waterways_01[top1]
+Waterways_14[bot2] --> Ruins1_17[top1]
+
+Waterways 15:
+Waterways_15[top1] --> Mines_01[bot1]
+
+GG Pipeway:
+GG_Pipeway[left1] --> Crossroads_25[right1]
+GG_Pipeway[right1] --> Room_Mansion[left1]
+
+GG Waterways:
+GG_Waterways[door1] --> Crossroads_27[left2]
+GG_Waterways[right1] --> Mines_20[left3]
+
+Room GG Shortcut:
+Room_GG_Shortcut[top1] --> Mines_03[bot1]
+Room_GG_Shortcut[left1] --> Room_Bretta[right1]
+
+Ruins1 01:
+Ruins1_01[bot1] --> Ruins1_09[top1]
+Ruins1_01[left1] --> Fungus3_44[door1]
+Ruins1_01[top1] --> Fungus1_11[bot1]
+
+Ruins1 02:
+Ruins1_02[bot1] --> Fungus3_24[top1]
+Ruins1_02[top1] --> Waterways_04[bot1]
+
+Ruins1 03:
+Ruins1_03[right1] --> Deepnest_34[left1]
+Ruins1_03[left1] --> White_Palace_17[right1]
+Ruins1_03[top1] --> Fungus2_10[bot1]
+Ruins1_03[right2] --> Room_nailsmith[left1]
+
+Ruins1 04:
+Ruins1_04[right1] --> Fungus1_03[left1]
+Ruins1_04[door1] --> Fungus1_07[left1]
+Ruins1_04[bot1] --> Fungus2_15[top3]
+
+Ruins1 05b:
+Ruins1_05b[top1] --> Deepnest_East_09[bot1]
+Ruins1_05b[right1] --> Mines_10[left1]
+Ruins1_05b[left1] --> Deepnest_10[door1]
+Ruins1_05b[bot1] --> Fungus1_10[top1]
+
+Ruins1 05c:
+Ruins1_05c[left2] --> Fungus1_02[right2]
+Ruins1_05c[bot1] --> Fungus2_18[top1]
+Ruins1_05c[top1] --> Deepnest_East_06[bot1]
+Ruins1_05c[top3] --> White_Palace_20[bot1]
+Ruins1_05c[top2] --> Ruins1_17[bot1]
+
+Ruins1 05:
+Ruins1_05[bot3] --> Fungus2_14[top1]
+Ruins1_05[bot2] --> White_Palace_19[top1]
+Ruins1_05[right2] --> Fungus1_25[left1]
+Ruins1_05[right1] --> Fungus1_19[left1]
+Ruins1_05[top1] --> Ruins2_01[bot1]
+Ruins1_05[bot1] --> Hive_03_c[top1]
+
+Ruins1 06:
+Ruins1_06[right1] --> RestingGrounds_05[left1]
+Ruins1_06[left1] --> Ruins1_31[right1]
+
+Ruins1 09:
+Ruins1_09[left1] --> Crossroads_02[door1]
+Ruins1_09[top1] --> Ruins1_01[bot1]
+
+Ruins1 17:
+Ruins1_17[top1] --> Waterways_14[bot2]
+Ruins1_17[right1] --> White_Palace_08[left1]
+Ruins1_17[bot1] --> Ruins1_05c[top2]
+
+Ruins1 18:
+Ruins1_18[right1] --> Waterways_04b[left1]
+Ruins1_18[left1] --> Ruins1_32[right2]
+Ruins1_18[right2] --> Fungus1_01b[left1]
+
+Ruins1 23:
+Ruins1_23[right2] --> Hive_02[left2]
+Ruins1_23[top1] --> Mines_10[bot1]
+Ruins1_23[left1] --> Cliffs_03[right1]
+Ruins1_23[right1] --> Ruins_House_01[left1]
+Ruins1_23[bot1] --> Deepnest_30[top1]
+
+Ruins1 24-upper:
+Ruins1_24[right1] --> Crossroads_49[left1]
+Ruins1_24[left1] --> Fungus2_10[right1]
+
+Ruins1 24:
+Ruins1_24[left2] --> Mines_13[right1]
+Ruins1_24[right2] --> Crossroads_27[left1]
+
+Ruins1 25:
+Ruins1_25[left3] --> White_Palace_14[right1]
+Ruins1_25[left1] --> Fungus2_06[right1]
+Ruins1_25[left2] --> Ruins1_32[right1]
+
+Ruins1 27:
+Ruins1_27[right1] --> Abyss_09[left1]
+Ruins1_27[left1] --> Crossroads_37[right1]
+
+Ruins1 28:
+Ruins1_28[bot1] --> Mines_05[top1]
+Ruins1_28[left1] --> White_Palace_03_hub[right1]
+Ruins1_28[right1] --> Mines_01[left1]
+
+Ruins1 29:
+Ruins1_29[left1] --> Fungus2_10[right2]
+
+Ruins1 30:
+Ruins1_30[left2] --> Fungus3_34[right1]
+Ruins1_30[left1] --> Deepnest_East_18[right2]
+Ruins1_30[bot1] --> White_Palace_04[top1]
+Ruins1_30[right1] --> Crossroads_21[left1]
+
+Ruins1 31:
+Ruins1_31[right1] --> Ruins1_06[left1]
+Ruins1_31[left1] --> Mines_17[right1]
+Ruins1_31[left3] --> Fungus1_01b[right1]
+Ruins1_31[bot1] --> Ruins2_07[top1]
+Ruins1_31[left2] --> Crossroads_31[right1]
+
+Ruins1 31b:
+Ruins1_31b[right2] --> Crossroads_43[left1]
+Ruins1_31b[right1] --> Crossroads_12[left1]
+
+Ruins1 32:
+Ruins1_32[right2] --> Ruins1_18[left1]
+Ruins1_32[right1] --> Ruins1_25[left2]
+
+Room nailsmith:
+Room_nailsmith[left1] --> Ruins1_03[right2]
+
+Ruins2 01:
+Ruins2_01[bot1] --> Ruins1_05[top1]
+Ruins2_01[left2] --> Fungus3_25b[right1]
+Ruins2_01[top1] --> White_Palace_17[bot1]
+
+Ruins2 01 b:
+Ruins2_01_b[right1] --> Fungus3_13[left1]
+Ruins2_01_b[left1] --> Deepnest_43[right1]
+Ruins2_01_b[top1] --> White_Palace_07[bot1]
+
+Ruins2 03b:
+Ruins2_03b[left1] --> Town[door_bretta]
+Ruins2_03b[top1] --> Fungus1_05[bot1]
+Ruins2_03b[bot1] --> Abyss_20[top1]
+Ruins2_03b[top2] --> Ruins2_09[bot1]
+
+Ruins2 03:
+Ruins2_03[top1] --> Fungus3_22[bot1]
+Ruins2_03[bot1] --> Mines_18[top1]
+Ruins2_03[bot2] --> Deepnest_34[top1]
+
+Ruins2 04:
+Ruins2_04[right2] --> White_Palace_13[left3]
+Ruins2_04[door_Ruin_House_01] --> Ruins_Elevator[left1]
+Ruins2_04[door_Ruin_Elevator] --> Deepnest_East_04[left2]
+Ruins2_04[door_Ruin_House_02] --> Fungus1_02[left1]
+Ruins2_04[door_Ruin_House_03] --> Fungus2_07[left1]
+Ruins2_04[left1] --> Fungus3_28[right1]
+Ruins2_04[left2] --> Crossroads_38[right1]
+Ruins2_04[right1] --> Room_nailmaster_02[left1]
+
+Ruins2 05:
+Ruins2_05[bot1] --> Mines_02[top2]
+Ruins2_05[left1] --> Deepnest_34[right1]
+Ruins2_05[top1] --> Crossroads_22[bot1]
+
+Ruins2 06:
+Ruins2_06[left1] --> Fungus1_04[right1]
+Ruins2_06[right2] --> Mines_05[left2]
+Ruins2_06[right1] --> Crossroads_02[left1]
+Ruins2_06[left2] --> Fungus2_02[right1]
+Ruins2_06[top1] --> Deepnest_37[bot1]
+
+Ruins2 07:
+Ruins2_07[left1] --> Crossroads_06[door1]
+Ruins2_07[right1] --> Fungus1_28[left2]
+Ruins2_07[top1] --> Ruins1_31[bot1]
+
+Ruins2 08:
+Ruins2_08[left1] --> Deepnest_41[right1]
+
+Ruins2 09:
+Ruins2_09[bot1] --> Ruins2_03b[top2]
+
+Ruins2 10:
+Ruins2_10[right1] --> Abyss_01[left2]
+Ruins2_10[left1] --> Fungus3_03[right1]
+
+Ruins2 10b:
+Ruins2_10b[left1] --> Deepnest_31[right1]
+Ruins2_10b[right2] --> Ruins_House_02[left1]
+Ruins2_10b[right1] --> Room_Mender_House[left1]
+
+Ruins2 11 b:
+Ruins2_11_b[left1] --> Crossroads_04[door_Mender_House]
+Ruins2_11_b[bot1] --> Deepnest_17[top1]
+Ruins2_11_b[right1] --> Deepnest_East_03[left1]
+
+Ruins2 11:
+Ruins2_11[right1] --> Crossroads_16[left1]
+
+Ruins2 Watcher Room:
+Ruins2_Watcher_Room[bot1] --> Crossroads_19[top1]
+
+Ruins House 01:
+Ruins_House_01[left1] --> Ruins1_23[right1]
+
+Ruins House 02:
+Ruins_House_02[left1] --> Ruins2_10b[right2]
+
+Ruins House 03:
+Ruins_House_03[left1] --> Cliffs_01[right4]
+Ruins_House_03[left2] --> Fungus2_33[right1]
+
+Ruins Elevator:
+Ruins_Elevator[left1] --> Ruins2_04[door_Ruin_House_01]
+Ruins_Elevator[left2] --> Crossroads_45[right1]
+
+Ruins Bathhouse:
+Ruins_Bathhouse[right1] --> RestingGrounds_05[left2]
+Ruins_Bathhouse[door1] --> Deepnest_Spider_Town[left1]
+
+RestingGrounds 02:
+RestingGrounds_02[bot1] --> Fungus1_32[top1]
+RestingGrounds_02[left1] --> Deepnest_East_12[right1]
+RestingGrounds_02[right1] --> Deepnest_09[left1]
+
+RestingGrounds 04:
+RestingGrounds_04[left1] --> RestingGrounds_06[right1]
+RestingGrounds_04[right1] --> Deepnest_02[left2]
+
+RestingGrounds 05:
+RestingGrounds_05[right2] --> Crossroads_50[left1]
+RestingGrounds_05[right1] --> Fungus3_27[left1]
+RestingGrounds_05[left2] --> Ruins_Bathhouse[right1]
+RestingGrounds_05[left1] --> Ruins1_06[right1]
+RestingGrounds_05[left3] --> Deepnest_31[right2]
+RestingGrounds_05[bot1] --> Fungus3_01[top1]
+
+RestingGrounds 06:
+RestingGrounds_06[top1] --> Fungus2_14[bot3]
+RestingGrounds_06[left1] --> White_Palace_15[right1]
+RestingGrounds_06[right1] --> RestingGrounds_04[left1]
+
+RestingGrounds 07:
+RestingGrounds_07[right1] --> Deepnest_East_09[left1]
+
+RestingGrounds 08:
+RestingGrounds_08[left1] --> Crossroads_01[right1]
+
+RestingGrounds 09:
+RestingGrounds_09[left1] --> Fungus2_11[right1]
+
+RestingGrounds 10:
+RestingGrounds_10[top1] --> Deepnest_East_11[bot1]
+RestingGrounds_10[left1] --> Fungus3_25[right1]
+RestingGrounds_10[top2] --> Mines_13[bot1]
+
+RestingGrounds 12:
+RestingGrounds_12[door_Mansion] --> Abyss_18[left1]
+RestingGrounds_12[bot1] --> Deepnest_01b[top1]
+
+RestingGrounds 17:
+RestingGrounds_17[right1] --> Mines_17[left1]
+
+Room Mansion:
+Room_Mansion[left1] --> GG_Pipeway[right1]
+
+Mines 01:
+Mines_01[left1] --> Ruins1_28[right1]
+Mines_01[bot1] --> Waterways_15[top1]
+
+Mines 02:
+Mines_02[right1] --> Town[left1]
+Mines_02[left1] --> Fungus2_25[right1]
+Mines_02[top2] --> Ruins2_05[bot1]
+Mines_02[top1] --> Room_Colosseum_01[bot1]
+
+Mines 03:
+Mines_03[right1] --> Fungus2_08[left1]
+Mines_03[bot1] --> Room_GG_Shortcut[top1]
+Mines_03[top1] --> Waterways_05[bot1]
+
+Mines 04:
+Mines_04[left3] --> Crossroads_21[right1]
+Mines_04[left1] --> White_Palace_18[right1]
+Mines_04[left2] --> Deepnest_East_09[right1]
+Mines_04[top1] --> Crossroads_03[bot1]
+Mines_04[right1] --> Deepnest_32[left1]
+
+Mines 05:
+Mines_05[left2] --> Ruins2_06[right2]
+Mines_05[right1] --> Fungus1_12[left1]
+Mines_05[top1] --> Ruins1_28[bot1]
+Mines_05[left1] --> Fungus3_23[right1]
+Mines_05[bot1] --> White_Palace_18[top1]
+
+Mines 06:
+Mines_06[right1] --> Deepnest_03[left2]
+Mines_06[left1] --> Fungus3_47[right1]
+
+Mines 07:
+Mines_07[left1] --> Fungus3_05[right2]
+Mines_07[right1] --> White_Palace_13[left2]
+
+Mines 10:
+Mines_10[left1] --> Ruins1_05b[right1]
+Mines_10[bot1] --> Ruins1_23[top1]
+Mines_10[right1] --> Crossroads_30[left1]
+
+Mines 11:
+Mines_11[top1] --> Waterways_02[bot2]
+Mines_11[right1] --> Crossroads_05[left1]
+Mines_11[bot1] --> Fungus2_04[top1]
+
+Mines 13:
+Mines_13[bot1] --> RestingGrounds_10[top2]
+Mines_13[right1] --> Ruins1_24[left2]
+
+Mines 16:
+Mines_16[top1] --> Fungus3_archive[bot1]
+
+Mines 17:
+Mines_17[right1] --> Ruins1_31[left1]
+Mines_17[left1] --> RestingGrounds_17[right1]
+
+Mines 18:
+Mines_18[right1] --> White_Palace_13[left1]
+Mines_18[left1] --> Hive_01[right1]
+Mines_18[top1] --> Ruins2_03[bot1]
+
+Mines 19:
+Mines_19[right1] --> Abyss_06_Core[left3]
+Mines_19[left1] --> Fungus3_40[right1]
+
+Mines 20:
+Mines_20[right1] --> Room_Colosseum_01[left1]
+Mines_20[left1] --> Deepnest_14[right1]
+Mines_20[right2] --> Hive_05[left1]
+Mines_20[left2] --> Hive_04[right1]
+
+Mines 20-lower:
+Mines_20[bot1] --> Fungus2_19[top1]
+Mines_20[left3] --> GG_Waterways[right1]
+
+Mines 23:
+Mines_23[left1] --> Mines_28[door1]
+Mines_23[right1] --> Deepnest_42[left1]
+Mines_23[right2] --> Room_Fungus_Shaman[left1]
+
+Mines 24:
+Mines_24[left1] --> Deepnest_10[right3]
+
+Mines 25:
+Mines_25[top1] --> Waterways_01[bot1]
+Mines_25[left1] --> Fungus3_02[right1]
+
+Mines 28:
+Mines_28[bot1] --> Mines_23[top1]
+Mines_28[left1] --> Fungus3_05[right1]
+Mines_28[door1] --> Mines_23[left1]
+
+Mines 29:
+Mines_29[right2] --> White_Palace_15[left1]
+Mines_29[left1] --> Fungus3_26[right1]
+Mines_29[right1] --> Fungus1_10[left1]
+
+Mines 30:
+Mines_30[right1] --> Fungus1_11[left1]
+Mines_30[left1] --> Deepnest_39[door1]
+
+Mines 31:
+Mines_31[left1] --> Crossroads_14[right2]
+
+Mines 32:
+Mines_32[bot1] --> Deepnest_42[top1]
+
+Mines 33:
+Mines_33[right1] --> Fungus2_01[left2]
+Mines_33[left1] --> Abyss_01[right2]
+
+Mines 34:
+Mines_34[left1] --> RestingGrounds_02[top1]
+Mines_34[bot2] --> Tutorial_01[top1]
+Mines_34[bot1] --> Deepnest_East_11[top1]
+
+Mines 35:
+Mines_35[left1] --> Waterways_09[right1]
+
+Mines 36:
+Mines_36[right1] --> Fungus3_01[left1]
+
+Mines 37:
+Mines_37[top1] --> Fungus1_06[bot1]
+Mines_37[bot1] --> Deepnest_33[top1]
+
+Fungus3 04-upper:
+Fungus3_04[left1] --> Deepnest_East_07[right1]
+Fungus3_04[left2] --> Deepnest_26b[right1]
+
+Fungus3 04:
+Fungus3_04[right1] --> Fungus3_25[left1]
+Fungus3_04[right2] --> White_Palace_03_hub[left1]
+
+Fungus3 05:
+Fungus3_05[left1] --> Fungus1_01[right1]
+Fungus3_05[right1] --> Mines_28[left1]
+Fungus3_05[right2] --> Mines_07[left1]
+
+Fungus3 08:
+Fungus3_08[left1] --> White_Palace_05[right2]
+Fungus3_08[top1] --> Waterways_05[bot2]
+Fungus3_08[right1] --> Deepnest_16[left1]
+
+Fungus3 10:
+Fungus3_10[top1] --> Fungus2_29[bot1]
+Fungus3_10[bot1] --> Deepnest_44[top1]
+
+Fungus3 11:
+Fungus3_11[right1] --> Crossroads_10[left1]
+Fungus3_11[left1] --> Crossroads_36[right2]
+Fungus3_11[left2] --> Room_Mask_Maker[right1]
+
+Fungus3 13:
+Fungus3_13[left2] --> Deepnest_East_08[right1]
+Fungus3_13[left1] --> Ruins2_01_b[right1]
+Fungus3_13[left3] --> Tutorial_01[right1]
+Fungus3_13[bot1] --> Abyss_06_Core[top1]
+Fungus3_13[right1] --> Grimm_Divine[left1]
+
+Fungus3 21:
+Fungus3_21[right1] --> Fungus1_17[left1]
+Fungus3_21[top1] --> Crossroads_16[bot1]
+
+Fungus3 22:
+Fungus3_22[left1] --> Waterways_01[right1]
+Fungus3_22[bot1] --> Ruins2_03[top1]
+Fungus3_22[right1] --> Crossroads_45[left1]
+
+Fungus3 23:
+Fungus3_23[right1] --> Mines_05[left1]
+Fungus3_23[left1] --> Fungus2_14[right1]
+
+Fungus3 34:
+Fungus3_34[left1] --> Crossroads_12[right1]
+Fungus3_34[right1] --> Ruins1_30[left2]
+Fungus3_34[top1] --> Deepnest_East_16[bot1]
+
+Fungus3 39:
+Fungus3_39[left1] --> Crossroads_04[door1]
+Fungus3_39[right1] --> Deepnest_41[left2]
+
+Fungus3 40:
+Fungus3_40[top1] --> Crossroads_27[bot1]
+Fungus3_40[right1] --> Mines_19[left1]
+
+Fungus3 48-upper:
+Fungus3_48[right1] --> Deepnest_East_11[left1]
+Fungus3_48[door1] --> Abyss_10[left2]
+
+Fungus3 48:
+Fungus3_48[right2] --> Crossroads_07[left3]
+Fungus3_48[bot1] --> Deepnest_East_01[top1]
+
+Fungus3 49:
+Fungus3_49[right1] --> Deepnest_17[left1]
+
+Fungus3 50:
+Fungus3_50[right1] --> Abyss_05[left1]
+
+Room Queen:
+Room_Queen[left1] --> Abyss_09[right1]
+
+Cliffs 01:
+Cliffs_01[right2] --> Fungus1_30[left1]
+Cliffs_01[right3] --> Waterways_09[left1]
+Cliffs_01[right4] --> Ruins_House_03[left1]
+Cliffs_01[right1] --> Crossroads_42[left1]
+
+Cliffs 02:
+Cliffs_02[right1] --> Deepnest_01b[top2]
+Cliffs_02[bot2] --> Deepnest_East_03[top2]
+Cliffs_02[left1] --> White_Palace_15[right2]
+Cliffs_02[door1] --> Deepnest_East_07[left2]
+Cliffs_02[left2] --> Room_Colosseum_Spectate[right1]
+Cliffs_02[bot1] --> Room_Colosseum_02[top2]
+
+Cliffs 03:
+Cliffs_03[right1] --> Ruins1_23[left1]
+
+Cliffs 04:
+Cliffs_04[left1] --> Deepnest_East_04[right2]
+Cliffs_04[right1] --> Crossroads_03[left2]
+
+Cliffs 05:
+Cliffs_05[left1] --> Hive_03_c[right3]
+
+Cliffs 06:
+Cliffs_06[left1] --> Deepnest_10[right2]
+
+Room nailmaster:
+Room_nailmaster[left1] --> Deepnest_37[right1]
+
+White Palace 01:
+White_Palace_01[top1] --> Deepnest_East_18[bot1]
+White_Palace_01[left1] --> White_Palace_08[right1]
+White_Palace_01[right1] --> Crossroads_13[left1]
+
+White Palace 02:
+White_Palace_02[left1] --> Crossroads_08[right1]
+
+White Palace 03 hub:
+White_Palace_03_hub[right1] --> Ruins1_28[left1]
+White_Palace_03_hub[left2] --> Crossroads_43[right1]
+White_Palace_03_hub[bot1] --> Waterways_02[top3]
+White_Palace_03_hub[top1] --> White_Palace_14[bot1]
+White_Palace_03_hub[left1] --> Fungus3_04[right2]
+
+White Palace 04:
+White_Palace_04[top1] --> Ruins1_30[bot1]
+White_Palace_04[right2] --> Fungus3_47[left1]
+
+White Palace 05-upper:
+White_Palace_05[left1] --> Fungus1_11[right1]
+White_Palace_05[right1] --> Deepnest_30[left1]
+
+White Palace 05:
+White_Palace_05[left2] --> Abyss_04[right1]
+White_Palace_05[right2] --> Fungus3_08[left1]
+
+White Palace 06:
+White_Palace_06[top1] --> Deepnest_East_02[bot2]
+White_Palace_06[bot1] --> Deepnest_East_08[top1]
+White_Palace_06[left1] --> Abyss_18[right1]
+
+White Palace 07:
+White_Palace_07[top1] --> Fungus1_19[bot1]
+White_Palace_07[bot1] --> Ruins2_01_b[top1]
+
+White Palace 08:
+White_Palace_08[right1] --> White_Palace_01[left1]
+White_Palace_08[left1] --> Ruins1_17[right1]
+
+White Palace 09:
+White_Palace_09[right1] --> Fungus2_06[left1]
+
+White Palace 11:
+White_Palace_11[door2] --> Deepnest_East_03[left2]
+
+White Palace 12:
+White_Palace_12[right1] --> Waterways_03[left1]
+White_Palace_12[bot1] --> Abyss_03_c[top1]
+
+White Palace 13:
+White_Palace_13[left2] --> Mines_07[right1]
+White_Palace_13[right1] --> Fungus2_03[left1]
+White_Palace_13[left1] --> Mines_18[right1]
+White_Palace_13[left3] --> Ruins2_04[right2]
+
+White Palace 14:
+White_Palace_14[bot1] --> White_Palace_03_hub[top1]
+White_Palace_14[right1] --> Ruins1_25[left3]
+
+White Palace 15:
+White_Palace_15[right1] --> RestingGrounds_06[left1]
+White_Palace_15[left1] --> Mines_29[right2]
+White_Palace_15[right2] --> Cliffs_02[left1]
+
+White Palace 16:
+White_Palace_16[left2] --> Fungus1_03[right1]
+White_Palace_16[left1] --> Fungus2_15[right1]
+
+White Palace 17:
+White_Palace_17[right1] --> Ruins1_03[left1]
+White_Palace_17[bot1] --> Ruins2_01[top1]
+
+White Palace 18:
+White_Palace_18[right1] --> Mines_04[left1]
+White_Palace_18[top1] --> Mines_05[bot1]
+
+White Palace 19:
+White_Palace_19[top1] --> Ruins1_05[bot2]
+White_Palace_19[left1] --> Crossroads_16[right1]
+
+White Palace 20:
+White_Palace_20[bot1] --> Ruins1_05c[top3]
