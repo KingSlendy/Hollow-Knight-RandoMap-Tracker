@@ -1,4 +1,4 @@
-depth = -1;
+depth = -2;
 name = "";
 entrance = "";
 scene = noone;
@@ -8,3 +8,4 @@ target_x = 0;
 target_y = 0;
 scale_anim = new TargetAnim(1, 1, 0);
 faded = false;
+nscale = 0;

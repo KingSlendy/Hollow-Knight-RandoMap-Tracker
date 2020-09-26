@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "Scenes",
-    "path": "folders/Sprites/Images/Scenes.yy",
+    "path": "folders/Images/Sprites/Scenes.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprDeepnest_East_16",

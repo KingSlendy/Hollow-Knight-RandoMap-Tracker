@@ -1,8 +1,11 @@
+var cam = cam_get_vars();
+nscale = cam.cam_w / view_wport[0] * 0.85;
+
 if (!faded) {
 	image_angle = (image_angle + 360 + 3) % 360;
 	var scale = scale_anim.add_target(0.1);
-	image_xscale = scale;
-	image_yscale = scale;
+	image_xscale = scale * nscale;
+	image_yscale = scale * nscale;
 
 	if (global.cam_focus == id) {
 		var cam = cam_get_vars();

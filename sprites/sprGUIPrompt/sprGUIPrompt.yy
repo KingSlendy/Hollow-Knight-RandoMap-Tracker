@@ -69,7 +69,7 @@
   ],
   "parent": {
     "name": "GUI",
-    "path": "folders/Sprites/Images/GUI.yy",
+    "path": "folders/Images/Sprites/GUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprGUIPrompt",

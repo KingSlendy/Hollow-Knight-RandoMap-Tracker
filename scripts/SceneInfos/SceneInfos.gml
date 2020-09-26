@@ -161,13 +161,13 @@ a.add_entrance("left1", 0, 38);
 a.add_entrance("door1", 69, 38);
 a.add_entrance("right1", 136, 38);
 
-a = new Scene("Crossroads_03", roads, c_roads, ds_map_create());
-a.add_entrance("right1", 47, 35);
+a = new Scene("Crossroads_03", roads, c_roads, global.default_entrances);
+/*a.add_entrance("right1", 47, 35);
 a.add_entrance("left2", 0, 122);
 a.add_entrance("right2", 47, 81);
 a.add_entrance("left1", 0, 85);
 a.add_entrance("bot1", 0, 85);
-a.add_entrance("top1", 22, 0);
+a.add_entrance("top1", 22, 0);*/
 
 a = new Scene("Crossroads_04", roads, c_roads, ds_map_create());
 a.add_entrance("right1", 241, 11);
@@ -190,41 +190,120 @@ a = new Scene("Crossroads_07", roads, c_roads, global.default_entrances);
 a = new Scene("Crossroads_08", roads, c_roads, global.default_entrances);
 
 a = new Scene("Crossroads_09", roads, c_roads, ds_map_create());
-a.add_entrance("left1", 4, 21);
+a.add_entrance("left1", 0, 21);
 a.add_entrance("right1", 120, 21);
 
-a = new Scene("Crossroads_10", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_11", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_12", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_13", roads, c_roads, global.default_entrances);
+a = new Scene("Crossroads_10", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 103, 78);
+a.add_entrance("left1", 0, 74);
+
+a = new Scene("Crossroads_11_alt", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 234, 21);
+a.add_entrance("left1", 0, 11);
+
+a = new Scene("Crossroads_12", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 17);
+a.add_entrance("right1", 121, 18);
+
+a = new Scene("Crossroads_13", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 23);
+a.add_entrance("right1", 126, 23);
+
 a = new Scene("Crossroads_14", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_15", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_16", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_18", roads, c_roads, global.default_entrances);
+
+a = new Scene("Crossroads_15", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 22);
+a.add_entrance("right1", 109, 22);
+
+a = new Scene("Crossroads_16", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 137, 38);
+a.add_entrance("bot1", 108, 52);
+a.add_entrance("left1", 0, 38);
+
+a = new Scene("Crossroads_18", roads, c_roads, ds_map_create());
+a.add_entrance("bot1", 35, 78);
+a.add_entrance("right1", 65, 12);
+a.add_entrance("right2", 65, 60);
+
 a = new Scene("Crossroads_19", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_21", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_22", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_25", roads, c_roads, global.default_entrances);
+
+a = new Scene("Crossroads_21", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 35);
+a.add_entrance("right1", 187, 29);
+a.add_entrance("top1", 13, 0);
+
+a = new Scene("Crossroads_22", roads, c_roads, ds_map_create());
+a.add_entrance("bot1", 8, 53);
+
+a = new Scene("Crossroads_25", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 31);
+a.add_entrance("right1", 117, 19);
+
 a = new Scene("Crossroads_27", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_30", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_31", roads, c_roads, global.default_entrances);
+
+a = new Scene("Crossroads_30", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 30);
+
+a = new Scene("Crossroads_31", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 103, 23);
+
 a = new Scene("Crossroads_33", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_35", roads, c_roads, global.default_entrances);
+
+a = new Scene("Crossroads_35", roads, c_roads, ds_map_create());
+a.add_entrance("bot1", 105, 80);
+a.add_entrance("right1", 116, 8);
+
 a = new Scene("Crossroads_36", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_37", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_38", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_39", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_40", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_42", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_43", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_45", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_46", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_46b", rest, c_rest, global.default_entrances);
-a = new Scene("Crossroads_47", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_48", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_49", roads, c_roads, global.default_entrances);
-a = new Scene("Crossroads_49b", city, c_city, global.default_entrances);
-a = new Scene("Crossroads_50", rest, c_rest, global.default_entrances);
+
+a = new Scene("Crossroads_37", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 106, 21);
+
+a = new Scene("Crossroads_38", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 110, 39);
+
+a = new Scene("Crossroads_39", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 22);
+a.add_entrance("right1", 128, 22);
+
+a = new Scene("Crossroads_40", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 35);
+a.add_entrance("right1", 158, 35);
+
+a = new Scene("Crossroads_42", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 28);
+a.add_entrance("right1", 135, 26);
+
+a = new Scene("Crossroads_43", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 133, 24);
+a.add_entrance("left1", 0, 24);
+
+a = new Scene("Crossroads_45", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 102, 13);
+a.add_entrance("left1", 0, 55);
+
+a = new Scene("Crossroads_46", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 23);
+
+a = new Scene("Crossroads_46b", rest, c_rest, ds_map_create());
+a.add_entrance("right1", 191, 22);
+
+a = new Scene("Crossroads_47", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 65, 17);
+
+a = new Scene("Crossroads_48", roads, c_roads, ds_map_create());
+a.add_entrance("left1", 0, 24);
+
+a = new Scene("Crossroads_49", roads, c_roads, ds_map_create());
+a.add_entrance("right1", 51, 19);
+a.add_entrance("left1", 0, 19);
+
+a = new Scene("Crossroads_49b", city, c_city, ds_map_create());
+a.add_entrance("right1", 51, 186);
+
+a = new Scene("Crossroads_50", rest, c_rest, ds_map_create());
+a.add_entrance("right1", 447, 37);
+a.add_entrance("left1", 0, 23);
+
 a = new Scene("Crossroads_52", roads, c_roads, global.default_entrances);
 a = new Scene("Deepnest_01", wastes, c_wastes, global.default_entrances);
 a = new Scene("Deepnest_01b", nest, c_nest, global.default_entrances);

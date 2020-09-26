@@ -1,14 +1,15 @@
 #region Initialization
-depth = 1;
-x = room_width / 2;
-y = room_height / 2;
+depth = -1;
+x = view_wport[0] / 2;
+y = view_hport[0] / 2;
 
-if (global.last_cam != noone) {
-	var cam = cam_get_vars();
-	camera_set_view_pos(cam.cam, global.last_cam.cam_x, global.last_cam.cam_y);
-	camera_set_view_size(cam.cam, global.last_cam.cam_w, global.last_cam.cam_h);
-	global.last_cam = noone;
-}
+//Adjusts the background scale to fit on the window perfectly
+var cam = cam_get_vars();
+layer_bkg = layer_background_get_id("Background");
+layer_background_xscale(layer_bkg, cam.cam_w / sprite_get_width(sprBkgMain));
+layer_background_yscale(layer_bkg, cam.cam_h / sprite_get_height(sprBkgMain));
+bkg_xscale = layer_background_get_xscale(layer_bkg);
+bkg_yscale = layer_background_get_yscale(layer_bkg);
 
 zoom_level = 45;
 mouse_hold = false;
@@ -16,12 +17,43 @@ mouse_xprevious = 0;
 mouse_yprevious = 0;
 box_controls_size = 300;
 box_controls_anim = new TargetAnim(-(box_controls_size + 30), box_controls_size + 30, 0);
+box_pins_anim = new TargetAnim(0, 400, 1);
+icons_pin = [
+	sprPinBlue,
+	sprPinRed,
+	sprPinSilver,
+	sprPinGold,
+	sprPinTree,
+	sprPinBenchGray,
+	sprPinBench,
+	sprPinIsma,
+	sprPinCrystal,
+	sprPinWings,
+	sprPinClaws
+];
+
+selected_pin = 0;
 place_pin = false;
+
+//Starts the camera in the last position it was before reloading
+if (global.last_cam != noone) {
+	camera_set_view_pos(cam.cam, global.last_cam.cam_x, global.last_cam.cam_y);
+	camera_set_view_size(cam.cam, global.last_cam.cam_w, global.last_cam.cam_h);
+	global.last_cam = noone;
+}
+
+function static_background() {
+	var cam = cam_get_vars();
+	layer_x("Background", cam.cam_x);
+	layer_y("Background", cam.cam_y);
+	layer_background_xscale(layer_bkg, bkg_xscale * cam.cam_w / view_wport[0]);
+	layer_background_yscale(layer_bkg, bkg_yscale * cam.cam_h / view_hport[0]);
+}
 
 function zoom_camera(zoom) {
 	var cam = cam_get_vars();
 	
-	if ((zoom == -1 && cam.cam_w <= room_width) || (zoom == 1 && cam.cam_w >= room_width * 5)) {
+	if ((zoom == -1 && cam.cam_w <= view_wport[0]) || (zoom == 1 && cam.cam_w >= view_wport[0] * 5)) {
 		return;
 	}
 	

@@ -81,7 +81,7 @@
   ],
   "parent": {
     "name": "Pins",
-    "path": "folders/Sprites/Images/Pins.yy",
+    "path": "folders/Images/Sprites/Pins.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprPinGold",

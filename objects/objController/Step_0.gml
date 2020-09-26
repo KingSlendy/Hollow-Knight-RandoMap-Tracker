@@ -1,3 +1,5 @@
+static_background();
+
 #region Zooming View
 if (global.cam_focus == noone) {
 	if (mouse_wheel_down()) { //Zoom out
@@ -45,7 +47,7 @@ if (global.cam_focus == noone) {
 }
 
 //Enabling pins
-if (keyboard_check_pressed(vk_enter)) {
+if (!mouse_check_button(mb_right) && keyboard_check_pressed(vk_enter)) {
 	place_pin = !place_pin;
 }
 

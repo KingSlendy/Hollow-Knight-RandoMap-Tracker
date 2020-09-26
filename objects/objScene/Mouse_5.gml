@@ -1,3 +1,7 @@
+if (objController.place_pin) {
+	exit;
+}
+
 holding = true;
 hold_x = abs(mouse_x - (x - sprite_xoffset));
 hold_y = abs(mouse_y - (y - sprite_yoffset));
